@@ -1,0 +1,40 @@
+//splash-screen
+.splash-screen
+  position: fixed
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0
+  background-color: #000
+  z-index 100000
+  &-center
+    text-align: center
+  &-logo
+    width: 100%;
+    max-width: 526px
+    max-height: 89px
+    object-fit: contain;
+  .container-inner
+    height: 100%
+    width: 100%
+    display: table
+    .container
+      display: table-cell
+      vertical-align: middle
+//loading progress
+.under-bar
+  background: #9b9b9b
+  bottom: 0
+  height: 9px!important
+  width: 100%
+  position: fixed;
+  z-index: 1031;
+  left: 0;
+#nprogress
+  display: block!important
+  .bar
+    background: $color1!important
+    bottom: 0
+    top: inherit!important
+    height: 9px!important
+    border-radius: 11px!important

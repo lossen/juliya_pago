@@ -1,0 +1,82 @@
+//overlay
+.overlay
+  width: 100%
+  height: 100%
+  background-image: url("../img/bg-simple.png")
+  background-color: #000
+  background-size cover
+  display: none
+  z-index: 10
+  &-inner
+    display: table
+    height: 100%
+    width: 100%
+    .container
+      display: table-cell
+      vertical-align: middle
+  &-footer
+    position: fixed
+    bottom: 10%
+    display: block
+    width: 100%
+    &-email, &-contacts
+      font-family: PTSans;
+      font-size: 16px;
+      font-weight: normal;
+      color: #535353;
+    &-email
+      position: relative
+      margin-left: 30px
+      &:before
+        display: inline-block
+        content: ''
+        sprite($email_icon)
+        position: absolute
+        top: 5px
+        left: -30px
+      &:hover
+        color: $color1
+        text-decoration: none
+    &-contacts
+      position: relative
+      &:before
+        position: absolute
+        top: 10px
+        left: -30px
+        display: inline-block
+        content: ''
+        sprite($contacts)
+//fade-menu
+.fade-menu
+  margin: 0
+  padding: 0
+  li
+    display: inline-block
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Proxima Nova;
+    color: #ffffff;
+    text-transform: uppercase
+    position: relative
+    &:after
+      content: ''
+      display: inline-block
+      border-right: 4px solid #535355
+      height: 25px
+      position: absolute
+      top: 16px
+      right: 0
+    &:last-of-type, &:hover
+      &:after
+        content: none
+
+    a
+      display: inline-block
+      color: #fff
+      padding: 0 25px
+      line-height: 1.72;
+      text-decoration: none
+      border-radius: 3px;
+      &:hover
+        background-color: #ffffff;
+        color: #000

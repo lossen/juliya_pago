@@ -1,0 +1,25 @@
+{
+  "name": "juliya_pago",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "anna"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "fullpage.js": "^2.8.1",
+    "jPlayer": "jplayer#^2.9.2",
+    "nprogress": "^0.2.0",
+    "lightgallery": "^1.2.19",
+    "masonry": "^4.1.0"
+  }
+}

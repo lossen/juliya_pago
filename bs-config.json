@@ -1,0 +1,5 @@
+{
+    "port": 3000,
+    "files": ["../public_html/**/*.{html,htm,css,js}"],
+    "server": { "baseDir": "../public_html" }
+}

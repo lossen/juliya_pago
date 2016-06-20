@@ -1,0 +1,35 @@
+#audio-jplayer-container
+  margin-top: 100px
+  .jp-type-playlist
+    .jp-playlist
+      ul
+        li
+          //width: 238px
+          min-height: 212px
+          display: inline-block
+          background: #d7d7d7
+          border-radius: 5px;
+          margin-bottom: 7px
+          padding: 17px 6px;
+          .jp-playlist-item
+            position: relative
+            font-family: PTSans;
+            font-size: 18px;
+            font-weight: normal;
+            color: #000000;
+            text-decoration: none
+            outline: none
+            &:before
+              position: absolute
+              content: ''
+              display: inline-block
+              color: $color1
+              top: 135px
+              left: 18px
+              sprite($play)
+          .jp-playlist-current
+            &:before
+              sprite($pause)
+
+
+

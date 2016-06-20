@@ -1,0 +1,53 @@
+//buttons
+.btn
+  border: none
+  background: transparent
+  outline: none!important
+
+button
+  .Header2__&
+    height: 60px
+    background-color: red
+  .Footer2__&
+    height: 20px
+    background-color: green
+
+//form's and form's elements
+.form-search
+  position: relative
+  margin-top: 15px
+  &-input
+    height: 23px;
+    padding-left: 20px
+    border-radius: 3px;
+    background-color: #6d6d6d;
+    border: none
+    width: 100%
+    outline: none
+    font-family: PTSans;
+    color: #fff;
+    font-size: 12px;
+  &-btn
+    position: absolute
+    top: 5px
+    right: 8px
+    sprite($search)
+    border: none
+    background-color: transparent
+  input:valid + label
+    display: none;
+  input:focus + label
+    display: none;
+  label
+    display: inline-block;
+    position: absolute;
+    top:5px;
+    cursor: pointer;
+    left: 20px;
+    height: 22px;
+    width: 149px;
+    font-family: PTSans;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;

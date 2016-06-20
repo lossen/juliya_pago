@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="339px" height="57px" viewBox="0 0 339 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>header</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-6" sketch:type="MSArtboardGroup" transform="translate(-303.000000, -95.000000)">
+            <g id="Group-10" sketch:type="MSLayerGroup" transform="translate(301.000000, 95.000000)">
+                <g id="header">
+                    <g id="logo">
+                        <circle id="Oval-1" fill="#CA0019" sketch:type="MSShapeGroup" cx="207" cy="34" r="23"></circle>
+                        <ellipse id="Oval-1-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="206.5" cy="34.5" rx="3.5" ry="3.5"></ellipse>
+                        <text id="ЮЛИЯ-ПАГО" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="36" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="0" y="46">ЮЛИЯ ПАГО</tspan>
+                        </text>
+                        <rect id="Rectangle-22" fill="#000000" sketch:type="MSShapeGroup" x="220" y="0" width="121" height="24" rx="4"></rect>
+                        <text id="DJ-|-SINGER-|-MC" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="226" y="17">DJ | SINGER | MC</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

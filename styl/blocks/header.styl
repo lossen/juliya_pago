@@ -1,0 +1,69 @@
+//header
+.header
+  //height: 100px
+  width: 100%
+  background: transparent
+  position: fixed
+  top: 10%
+  z-index: 1
+  &-logo
+    display: inline-block
+  &-music
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: $color1;
+    position: relative
+    display: inline-block
+    line-height: 57px;
+    &-icon
+      sprite($misic_icon)
+      display: inline-block
+      position: relative
+      top: -28px
+      margin-right: 20px
+      &:hover
+        sprite($music_close_icon)
+      &--play
+        display: inline-block
+        position: relative
+        top: -28px
+        margin-right: 20px
+        sprite($music_close_icon)
+  &-itunes
+    display: inline-block
+    line-height: 57px;
+  &-btn-menu-radius
+    display: inline-block
+    border: none
+    background: transparent
+    outline: none
+    vertical-align: middle
+    sprite($btn_menu_radius)
+    &-wrap
+      line-height: 57px
+      display: inline-block
+      width: 100%
+      text-align: right
+    &--close
+      float: right
+      display: inline-block
+      border: none
+      background: transparent
+      outline: none
+      sprite($btn_menu_radius_close)
+  &-soc-group
+    line-height: 57px;
+    display: inline-block;
+    a
+      display: inline-block
+      vertical-align: middle
+    &-you-tube
+      sprite($youtube)
+    &-vk
+      sprite($vk)
+    &-insta
+      sprite($instagram)
+    &-fb
+      sprite($facebook)
